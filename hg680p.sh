@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # HG680P GPIO Wrapper
-# by Adi Putra
+# by houjie
 
 
 if [ "$(id -u)" != "0" ]; then
