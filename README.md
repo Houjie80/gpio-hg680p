@@ -1,4 +1,8 @@
 # gpio-hg680p
+- power
+- infrared
+- lan
+
 
 ## Instalation
 
