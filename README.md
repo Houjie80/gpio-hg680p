@@ -7,4 +7,5 @@ opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/
 ```
 ### Credit
 
-Adi putra
+- Putra-0
+- lutfailham96
