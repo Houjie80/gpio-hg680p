@@ -2,6 +2,7 @@
 
 # HG680P GPIO Wrapper
 # by houjie
+# sumber https://github.com/lutfailham96/s905x-gpio
 
 if [ "$(id -u)" != "0" ]; then
   echo "This script must be run as root" 1>&2
