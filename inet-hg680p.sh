@@ -34,11 +34,24 @@ function loop2() {
   done
 }
 
+function loop3() {
+  while true; do
+    hg680p.sh -ir on
+    if curl -X "HEAD" --connect-timeout 3 -so /dev/null "http://www.gstatic.com/generate_204"; then
+      hg680p.sh -ir warn
+    else
+      hg680p.sh -ir off
+    fi
+    sleep 1
+  done
+}
+
 
 function start() {
   echo -e "Starting ${SERVICE_NAME} service ..."
   screen -AmdS internet-indicator "${0}" -l ; sleep 2;
   screen -AmdS internet-indicator "${0}" -ll
+  screen -AmdS internet-indicator "${0}" -lll ; sleep 3;
 }
 
 function stop() {
@@ -61,6 +74,9 @@ case "${1}" in
   -ll)
     loop2
     ;;
+  -lll)
+    loop3
+    ;;  
   -r)
     start
     ;;

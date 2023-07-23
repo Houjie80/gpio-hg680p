@@ -51,6 +51,12 @@ function lan() {
   dual_general "${1}" "${pin_on}" "${pin_off}"
 }
 
+function ir() {
+  pin_on="507"
+  pin_off="508"
+  dual_general "${1}" "${pin_on}" "${pin_off}"
+}
+
 function usb() {
   pin_usb="505"
   # initialize gpio
@@ -70,6 +76,7 @@ function usage() {
 Usage:
   -power  [on, off, warn, dis]
   -lan    [on, off, warn, dis]
+  -ir     [on, off, warn, dis]
   -usb    [reset]
 EOF
 }
@@ -81,6 +88,9 @@ case "${1}" in
   -lan)
     lan "${2}"
     ;;
+  -ir)
+    ir "${2}"
+    ;;  
   -usb)
     usb "${2}"
     ;;
