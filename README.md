@@ -11,6 +11,8 @@ opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/
 ```
 ### Credit
 
-- Putra-0 https://github.com/Putra-0/gpio-hg680p
+- Putra-0 ( GPIO MOD )
+https://github.com/Putra-0/gpio-hg680p
 - lutfailham96 https://github.com/lutfailham96/s905x-gpio
-- https://www.facebook.com/miftakul.artanto
+- miftakul.artanto (pin gpio IR )
+  https://www.facebook.com/miftakul.artanto
