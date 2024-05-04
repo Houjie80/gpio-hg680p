@@ -5,7 +5,7 @@
 
 
 ## Instalation
-
+HG680P
 ```
 opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/install && bash install)
 ```
@@ -14,6 +14,16 @@ rc.local:
 
 ```
 /usr/bin/inet-hg680p.sh -r
+```
+B860h
+```
+opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/B860h && bash B860h)
+```
+
+rc.local:
+
+```
+/usr/bin/bledon -r
 ```
 
 ### Credit
