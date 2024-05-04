@@ -1,0 +1,8 @@
+#!/bin/bash
+
+clear
+(cd /usr/bin && curl -sLko bledon https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/bledon && chmod +x bledon)
+(cd /usr/bin && curl -sLko bled https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/bled && chmod +x bled)
+echo " Install selesai"
+echo " ketik perintah : bledon -r"
+echo " Untuk Menyalakan LED Internet Indicator"
