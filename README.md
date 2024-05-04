@@ -10,10 +10,10 @@
 opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/install && bash install)
 ```
 
-add crontab scheduled task to script work regularly at 12AM every day:
+rc.local:
 
 ```
-0 12 * * * /sbin/sync_time.sh bug.com
+/usr/bin/inet-hg680p.sh -r
 ```
 
 ### Credit
