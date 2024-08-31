@@ -23,7 +23,7 @@ opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/
 rc.local:
 
 ```
-/usr/bin/bledon -r
+/usr/bin/bled -r
 ```
 
 ### Credit
