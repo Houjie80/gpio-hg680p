@@ -2,7 +2,6 @@
 
 # HG680P GPIO Wrapper
 # by houjie
-
 # sumber https://github.com/lutfailham96/s905x-gpio
 #thanks buat 
 # - https://www.facebook.com/miftakul.artanto (untuk pin gpio IR nya)
