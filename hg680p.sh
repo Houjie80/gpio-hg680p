@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # HG680P GPIO Wrapper
 # by houjie
 # sumber https://github.com/lutfailham96/s905x-gpio
