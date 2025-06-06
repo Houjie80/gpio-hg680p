@@ -1,0 +1,8 @@
+#!/bin/bash
+
+clear
+(cd /usr/bin && curl -sLko K63led.sh https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/K63led.sh && chmod +x K63led.sh)
+(cd /usr/bin && curl -sLko inet-k63led.sh https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/inet-k63led.sh && chmod +x inet-k63led.sh)
+echo " Install selesai"
+echo " ketik perintah : inet-k63led.sh -r"
+echo " Untuk Menyalakan LED Internet Indicator"
