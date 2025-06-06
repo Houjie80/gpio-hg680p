@@ -15,6 +15,16 @@ rc.local:
 ```
 /usr/bin/inet-hg680p.sh -r
 ```
+HG680Pk6
+```
+opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/instalk6 && bash instalk6)
+```
+
+rc.local:
+
+```
+/usr/bin/inet-k63led.sh -r
+```
 B860h
 ```
 opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/B860h && bash B860h)
