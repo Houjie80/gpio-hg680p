@@ -3,6 +3,9 @@
 - infrared
 - lan
 
+  # gpio-AT01/AX180
+- lan
+
 
 ## Instalation
 HG680P
@@ -35,7 +38,16 @@ rc.local:
 ```
 /usr/bin/bledon -r
 ```
+AT01
+```
+opkg update && (cd /tmp && curl -sLko install https://raw.githubusercontent.com/Houjie80/gpio-hg680p/3led/AT01 bash AT01)
+```
 
+rc.local:
+
+```
+/usr/bin/atledon -r
+```
 ### Credit
 
 - Putra-0 ( GPIO MOD )
